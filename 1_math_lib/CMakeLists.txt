@@ -14,4 +14,3 @@ set(SRCS  main.cpp)  # 当前目录下的所有文件都设置为源文件
 
 add_executable(main ${SRCS}) # 增加可执行文件
 target_link_libraries(main math)  # 指定链接库
-

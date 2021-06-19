@@ -14,8 +14,3 @@ set_target_properties(math_dynamic PROPERTIES VERSIONS 1.1 SOVERSION 1) # 指定
 set_target_properties(math_static PROPERTIES OUTPUT_NAME "math") # 指定静态库最终生成的名称
 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib) # 指定库最终的生成路径
-
- 
-
-
-
