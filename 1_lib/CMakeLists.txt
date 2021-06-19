@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)  # 指定 cmake 的最低版本
 
-project(ADD_LIB) # 指定项目名称，编程语言(可忽略)
+project(LIB) # 指定项目名称，编程语言(可忽略)
 
 add_subdirectory(src) # 指定子目录
 
